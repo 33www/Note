@@ -5,3 +5,29 @@ typescript angular基于ts开发的，是底层开发语言
 模块 js模块  
 ng-zorro-antd 蚂蚁金服开发的一个angular组件  
 ng-alain 这是一个基于ng-zorro开发的angular组件  
+
+npm包管理
+
+脚手架：Angular-cli，ng-anlain
+
+
+项目搭建-ng new projectName
+
+
+项目运行-ng serve
+
+
+项目文件夹：
+
+node_modules 依赖包
+
+e2e 测试
+
+src 应用
+
+--	app	组件，模块
+	--	app.componet.ts	组件
+	--	app.module.ts	模块
+--	assets	资源目录
+--	环境配置
+--	index.html	根页面
