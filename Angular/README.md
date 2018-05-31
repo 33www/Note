@@ -35,3 +35,16 @@ src 应用
 --	assets	资源目录
 --	环境配置
 --	index.html	根页面
+
+src 文件夹   
+index.html 主页
+style.css 全局样式
+favicon.ico 图标
+app/ 存放代码
+app.component.ts 组件
+app.component.html 组件html代码
+app.component.css 组件css代码
+app.module.ts 模块
+
+assets/ 存放图片
+
