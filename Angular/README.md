@@ -21,30 +21,34 @@ npm包管理
 项目运行-ng serve
 
 
-项目文件夹：
 
-node_modules 依赖包
 
-e2e 测试
 
-src 应用
+## 目录
 
---	app	组件，模块
-	--	app.componet.ts	组件
-	--	app.module.ts	模块
---	assets	资源目录
---	环境配置
---	index.html	根页面
+* e2e 这是测试用的
 
-src 文件夹   
-index.html 主页
-style.css 全局样式
-favicon.ico 图标
-app/ 存放代码
-app.component.ts 组件
-app.component.html 组件html代码
-app.component.css 组件css代码
-app.module.ts 模块
+* node_modules 这是node环境
 
-assets/ 存放图片
+* README.md 这是自述文件
+
+* src 这是放要写的代码  
+
+	**app/ 存放代码**  
+     
+	app.component.ts 组件  
+	app.component.html 组件html代码  
+	app.component.css 组件css代码  
+	app.module.ts 模块  
+     
+	**assets/ 存放图片**   
+	 
+	**index.html 主页**  
+	
+	**style.css 全局样式**  
+	
+	**favicon.ico 图标**
+
+
+
 
