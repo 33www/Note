@@ -10,16 +10,13 @@ ng-zorro-antd 蚂蚁金服开发的一个angular组件
 ng-alain 这是一个基于ng-zorro开发的angular组件
 
 
-npm包管理
-
-脚手架：Angular-cli，ng-anlain
 
 
-项目搭建-ng new projectName
+## 命令
 
+* ng new *projectName* 创建项目  
 
-项目运行-ng serve
-
+* ng serve 启动项目  
 
 
 
