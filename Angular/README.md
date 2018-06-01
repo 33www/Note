@@ -1,14 +1,21 @@
 angular MVVM框架，模块化，组件化  
 angular cli 命令行工具（ng）  
+webpack构建工具，本地服务器，浏览器自动刷新（http-server + livereload）
 typescript angular基于ts开发的，是底层开发语言  
 组件 UI组件  
 模块 js模块  
-livereload 浏览器自动刷新
 websocket 传输协议
 后端渲染
 ng-zorro-antd 蚂蚁金服开发的一个angular组件  
 ng-alain 这是一个基于ng-zorro开发的angular组件
 
+# 版本变化
+
+* angularJS 特性：controller/$scope
+
+* angular2 特性：环境设置
+
+* angular4.0 特性：cli
 
 
 
