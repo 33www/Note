@@ -9,16 +9,16 @@ Xmlhttprequest对象向后端请求数据
 //兼容IE7以下  
 `var xmlhttp;  
 if (window.XMLHttpRequest){  
-  xmlhttp=new XMLHttpRequest();  
+  xmlhttp=new XMLHttpRequest();   
   }  
-else{  
-  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");   
+else{    
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");     
   }`  
   
 ## 事件驱动及DOM与响应数据绑定（数据发生变化）  
   
-`xmlhttp.onreadystatechange=function(){  
-    document.getElementById("ID").innerHTML=xmlhttp.responseText;  
+`xmlhttp.onreadystatechange=function(){    
+    document.getElementById("ID").innerHTML=xmlhttp.responseText;    
   }`  
   
 ## 声明请求
