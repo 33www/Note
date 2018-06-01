@@ -5,23 +5,27 @@ Xmlhttprequest对象向后端请求数据
 
 ## 创建ajax对象
 
-var xmlhttp=new XMLHttpRequest();
+`var xmlhttp=new XMLHttpRequest();`
 //兼容IE7以下
-var xmlhttp;
+`var xmlhttp;
 if (window.XMLHttpRequest){
   xmlhttp=new XMLHttpRequest();
   }
 else{
   xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-  }
+  }`
   
 ## 事件驱动及数据绑定（数据发生变化）
   
-  xmlhttp.onreadystatechange=function(){
+`xmlhttp.onreadystatechange=function(){
     document.getElementById("ID").innerHTML=xmlhttp.responseText;
-  }
+  }`
   
-## 发送请求
+## 声明请求
 
-xmlhttp.open("GET","test1.txt",true);
-xmlhttp.send();
+`xmlhttp.open("GET","test1.txt",true);`
+
+## 发送请求
+`xmlhttp.send();`
+
+>核心，轮询直至数据发生变化，触发操作DOM的函数
