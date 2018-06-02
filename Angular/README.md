@@ -89,6 +89,14 @@ websocket 传输协议
 	
 	* component.spec.ts
 	
+### 数据绑定
+
+> 单向绑定数据来源于ts文件的export
+
+> 双向绑定需要引入ngModel，数据
+
+* {{}} 数据表达式
+
 ### 管道
 
 > 用于格式化数据
