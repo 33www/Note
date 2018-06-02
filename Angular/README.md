@@ -89,6 +89,29 @@ websocket 传输协议
 	
 	* component.spec.ts
 	
+	* module.ts 模块配置文件，配置需要导入的组件
+	
+		`import { BrowserModule } from '@angular/platform-brower'; 导入浏览器组件`
+		
+		`import { NgModule } from '@angular/core'; 导入核心组件`
+		
+		`import { AppComponent } from './app.component'；导入根组件`
+		
+		`@NgModule({
+  			declarations: [
+    				AppComponent 声明组件
+  			],
+  			imports: [
+    				BrowserModule 导入组件
+  			],
+  			providers: [],
+  			bootstrap: [AppComponent]
+		})`
+
+* 内置组件
+
+	* FormsModule 表单组件，数据双向绑定
+	
 ### 数据绑定
 
 > 单向绑定数据来源于ts文件的export
