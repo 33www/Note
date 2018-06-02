@@ -93,7 +93,7 @@ websocket 传输协议
 
 > 单向绑定数据来源于ts文件的export
 
-> 双向绑定需要引入ngModel，数据
+> 双向绑定数据来源[(ngModel)]，需要引入ngModel，类似于数据暂存
 
 * {{}} 数据表达式
 
