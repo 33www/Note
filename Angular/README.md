@@ -68,24 +68,24 @@ websocket 传输协议
 
 * src/app 文件夹
 
-	* component.ts
+	* component.ts 组件配置文件
 
 		`import { Component, OnInit } from '@angular/core'; 组件导入声明`
 		
 		`@Component({
-			selector: 'app-heroes',  
-  			templateUrl: './heroes.component.html',  
- 			 styleUrls: ['./heroes.component.css']   
-			})`
-
-		`export class HeroesComponent implements OnInit {
-		  constructor() { }
-		  ngOnInit() {
-		  }
+			selector: 'app-root', 声明组件选择器
+			templateUrl: './app.component.html', 组件的html链接
+			styleUrls: ['./app.component.css'], 组件的CSS链接
+		})`
+		
+		`export class AppComponent{
+			title = 'myAngular'; 数据绑定接口
 		}`
-
-	* component.html
-	* component.css
+		
+	* component.html 组件html
+	
+	* component.css 组件 css
+	
 	* component.spec.ts
 	
 
