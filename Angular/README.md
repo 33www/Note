@@ -91,4 +91,6 @@ websocket 传输协议
 	
 ### 管道
 
-* | uppercase 
+> 用于格式化数据
+
+* | uppercase 转换为大写字母 
