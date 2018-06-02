@@ -62,6 +62,7 @@ websocket 传输协议
 ### 组件
 
 > 组件化是angular的核心，将HTML切分成多个组件，每个组件有独立的HTML/CSS/JS，用组件选择器构造index.html，组件基于angular框架，组件间内聚强
+> 组件=UI模板+交互数据
 > app.component是根组件，对应app-root，新生成的组件有独立的文件夹
 > ng-zorro-antd 蚂蚁金服开发的一个angular组件  
 > ng-alain 这是一个基于ng-zorro开发的angular组件
