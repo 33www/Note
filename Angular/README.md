@@ -82,9 +82,9 @@ websocket 传输协议
 			title = 'myAngular'; 数据绑定接口
 		}`
 		
-	* component.html 组件html
+	* component.html 组件模板
 	
-	* component.css 组件 css
+	* component.css 模板CSS
 	
 	* component.spec.ts
 	
