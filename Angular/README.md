@@ -1,12 +1,11 @@
 ## Angular
 
-angular MVVM框架，模块化，组件化  
+angular 前端模块化、组件的开发平台及MVVM框架  
 angular cli 命令行工具（ng）  
-webpack构建工具，本地服务器，浏览器自动刷新（http-server + livereload）
+webpack构建工具，本地服务器，浏览器自动刷新（http-server + livereload)  
 typescript angular基于ts开发的，是底层开发语言   
 websocket 传输协议
-ng-zorro-antd 蚂蚁金服开发的一个angular组件  
-ng-alain 这是一个基于ng-zorro开发的angular组件
+
 
 
 ## 版本变化
@@ -19,12 +18,6 @@ ng-alain 这是一个基于ng-zorro开发的angular组件
 
 
 ## 快速上手
-
-
-### 模块
-
-> angular既是一个开发平台，也是一个JS框架，是一个独立的模块，基于node_module，能与其他模块合作，模块与模块间耦合性低
-
 
 ### 命令
 
@@ -61,10 +54,17 @@ ng-alain 这是一个基于ng-zorro开发的angular组件
 	**favicon.ico 图标**
 	
 	
+### 模块
+
+> angular既是一个开发平台，也是一个JS框架，是一个独立的模块，基于node_module，能与其他模块合作，模块与模块间耦合性低
+
+
 ### 组件
 
 > 组件化是angular的核心，将HTML切分成多个组件，每个组件有独立的HTML/CSS/JS，用组件选择器构造index.html，组件基于angular框架，组件间内聚强
 > app.component是根组件，对应app-root，新生成的组件有独立的文件夹
+> ng-zorro-antd 蚂蚁金服开发的一个angular组件  
+> ng-alain 这是一个基于ng-zorro开发的angular组件
 
 * src/app 文件夹
 
