@@ -89,4 +89,6 @@ websocket 传输协议
 	
 	* component.spec.ts
 	
+### 管道
 
+* | uppercase 
