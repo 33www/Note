@@ -69,9 +69,21 @@ websocket 传输协议
 * src/app 文件夹
 
 	* component.ts
-		* import
-		* @component
-		* export
+
+		`import { Component, OnInit } from '@angular/core'; 组件导入声明`
+		
+		`@Component({
+			selector: 'app-heroes',  
+  			templateUrl: './heroes.component.html',  
+ 			 styleUrls: ['./heroes.component.css']   
+			})`
+
+		`export class HeroesComponent implements OnInit {
+		  constructor() { }
+		  ngOnInit() {
+		  }
+		}`
+
 	* component.html
 	* component.css
 	* component.spec.ts
