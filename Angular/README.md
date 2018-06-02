@@ -56,7 +56,30 @@ websocket 传输协议
 	
 ### 模块
 
-> angular既是一个开发平台，也是一个JS框架，是一个独立的模块，基于node_module，能与其他模块合作，模块与模块间耦合性低
+> angular既是一个开发平台，也是一个JS框架，NgModule是一个独立的模块，基于node_module，能与其他模块合作，模块与模块间耦合性低
+
+	* module.ts 模块配置文件，配置需要导入的模块和组件
+	
+		`import { BrowserModule } from '@angular/platform-brower'; 导入浏览器模块`
+		
+		`import { NgModule } from '@angular/core'; 导入根模块`
+		
+		`import { AppComponent } from './app.component'；导入根组件`
+		
+		`@NgModule({
+  			declarations: [
+    				AppComponent 声明组件
+  			],
+  			imports: [
+    				BrowserModule 导入外部模块
+  			],
+  			providers: [],
+  			bootstrap: [AppComponent]
+		})`
+
+* 内置模块
+
+	* FormsModule 表单模块，数据双向绑定
 
 
 ### 组件
@@ -88,29 +111,6 @@ websocket 传输协议
 	* component.css 模板CSS
 	
 	* component.spec.ts
-	
-	* module.ts 模块配置文件，配置需要导入的组件
-	
-		`import { BrowserModule } from '@angular/platform-brower'; 导入浏览器组件`
-		
-		`import { NgModule } from '@angular/core'; 导入核心组件`
-		
-		`import { AppComponent } from './app.component'；导入根组件`
-		
-		`@NgModule({
-  			declarations: [
-    				AppComponent 声明组件
-  			],
-  			imports: [
-    				BrowserModule 导入组件
-  			],
-  			providers: [],
-  			bootstrap: [AppComponent]
-		})`
-
-* 内置组件
-
-	* FormsModule 表单组件，数据双向绑定
 	
 ### 数据绑定
 
