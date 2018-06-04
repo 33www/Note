@@ -125,3 +125,15 @@ websocket 传输协议
 > 用于格式化数据
 
 * | uppercase 转换为大写字母 
+
+### 循环
+
+`*ngFor`循环，用let of声明变量
+
+### 事件
+
+* （click）点击事件
+
+### 方法
+
+onSelect()
