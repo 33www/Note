@@ -22,6 +22,12 @@ websocket 传输协议
 
 > 这是一个angular脚手架，可以看成是angular的应用程序，命令行接口，用于自动化开发angular项目
 
+* npm install -g @angular/cli(@指定版本)
+
+* npm uninstall -g @angular/cli 卸载
+
+* ng v 查看版本
+
 * ng new *projectName* 创建项目  
 
 * ng serve 启动项目  
