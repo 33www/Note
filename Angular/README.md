@@ -1,7 +1,6 @@
 ## Angular
 
-angular 前端模块化、组件的开发平台及MVVM框架  
-angular cli 命令行工具（ng）  
+angular 前端模块化、组件的开发平台及MVVM框架    
 webpack构建工具，本地服务器，浏览器自动刷新（http-server + livereload)  
 typescript angular基于ts开发的，是底层开发语言   
 websocket 传输协议
@@ -19,7 +18,9 @@ websocket 传输协议
 
 ## 快速上手
 
-### 命令
+### Angular/cli
+
+> 这是一个angular脚手架，可以看成是angular的应用程序，命令行接口，用于自动化开发angular项目
 
 * ng new *projectName* 创建项目  
 
