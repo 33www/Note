@@ -12,5 +12,8 @@ Value:[4,5]
 }
 
 $each(v1,fn(i1,v1){
+ $dl += dt v1.name /dt
   $each(v1.value,fn(i2,v2){
-   += dd v2 /dd
+    $dl += dd v2 /dd
+    
+    $dd = ""
