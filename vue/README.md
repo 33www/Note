@@ -31,4 +31,6 @@ v-on 操作事件 @
 
 methods this指向data
 
+父子通信
+
 过滤器
