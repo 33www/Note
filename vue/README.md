@@ -34,3 +34,7 @@ methods this指向data
 父子通信
 
 过滤器
+
+vue router 一个path对应一个.vue，路径=>html name相当于配置路径的类 入口link 出口view  $route $router
+路由传参————query查询字符串————params
+编程式导航————$router.go()————$router.push()
