@@ -15,7 +15,7 @@ static 放置静态资源
 
 src里引用需要用当前目录路径 ./
 
-组件化三步骤 新建组件 import导入组件 export注册组件————全局组件
+组件化三步骤 新建组件 import导入组件 export注册组件————全局组件  vue.component()
 
 路由步骤 use路由 new实例 挂载路由 参数routes 引入组件，关联path和组件  router-link to=path + router-view 页面实现
 
@@ -33,8 +33,12 @@ methods this指向data
 
 父子通信
 
-过滤器
+过滤器 $refs
 
 vue router 一个path对应一个.vue，路径=>html name相当于配置路径的类 入口link 出口view  $route $router
 路由传参————query查询字符串————params
 编程式导航————$router.go()————$router.push()
+重定向
+404 path:*
+
+vue resource get('url')/post('url',{key: name},{emulateJSON: true})
