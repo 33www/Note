@@ -41,4 +41,8 @@ vue router 一个path对应一个.vue，路径=>html name相当于配置路径�
 重定向
 404 path:*
 
-vue resource get('url')/post('url',{key: name},{emulateJSON: true})
+vue resource this.$http.get('url')/post('url',{key: value},{emulateJSON: true}).then(res => {}).catch(err => {})
+
+axios vue.prototype.$axios = Axios
+axios.defaults.baseURL = ''
+this.$axios.get('url',{})/post('url',{key: value}/'key= value').them(res => {}).catch(err => {})
