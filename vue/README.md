@@ -46,3 +46,6 @@ vue resource this.$http.get('url')/post('url',{key: value},{emulateJSON: true}).
 axios vue.prototype.$axios = Axios
 axios.defaults.baseURL = ''
 this.$axios.get('url',{})/post('url',{key: value}/'key= value').them(res => {}).catch(err => {})
+拦截器 属性计算
+
+src绑定数据需要用require()请求 :src="require('./img'+data+'.png')"
