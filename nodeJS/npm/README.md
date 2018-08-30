@@ -2,7 +2,11 @@ npm	node包管理，安装依赖
 
 npm install 安装
 
+npm install * -g 全局安装，通常安装工具类，可以在全局使用命令行
+
 npm install npm -g 更新
+
+
 
 npm uninstall 卸载
 
