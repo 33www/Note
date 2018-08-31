@@ -1,1 +1,1 @@
-AMD为了完善commonJS规范，requireJS是基于AMD规范
+AMD为了完善commonJS规范，使得模块化能被浏览器支持，requireJS是基于AMD规范的解决方案
