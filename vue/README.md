@@ -1,19 +1,8 @@
-开始全新的vue
+路径 
 
-vue cli 这是一个脚手架
+./ 当前目录
 
-npm install -g vue-cli 在npm环境下安装脚手架
-
-vue init webpack projectname 创建项目
-
-npn run dev 跑项目 默认端口8080
-
-
-eslintrc.js 修改es6代码风格
-
-static 放置静态资源
-
-src里引用需要用当前目录路径 ./
+@/ src目录
 
 组件化三步骤 新建组件 import导入组件 export注册组件————全局组件  vue.component()
 
