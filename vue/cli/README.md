@@ -14,6 +14,22 @@ npm run build 打包项目
 
 eslintrc.js 修改es6代码风格
 
-static 放置静态资源
+dist 打包后的文件
+
+static 放置静态资源，不会被webpack打包
 
 src里引用需要用当前目录路径 ./
+
+@/路径指向src
+
+src/assets 放静态资源
+
+src/components 放组件
+
+src/views 放页面
+
+src/router 放路由
+
+app.vue 根组件
+
+main.js 入口文件
