@@ -1,0 +1,1 @@
+AMD为了完善commonJS规范，requireJS是基于AMD规范
