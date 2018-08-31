@@ -1,1 +1,1 @@
-webpack是一个模块打包器
+webpack 模块化打包工具，解决gulp痛点，现在多少cli构建工具有自动化配置webpack，后期需要深入学习
