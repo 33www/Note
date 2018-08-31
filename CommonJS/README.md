@@ -1,0 +1,1 @@
+最早的模块化解决方案，nodeJS基于commonJS规范
