@@ -38,3 +38,9 @@ this.$axios.get('url',{})/post('url',{key: value}/'key= value').them(res => {}).
 拦截器 属性计算
 
 src绑定数据需要用require()请求 :src="require('./img'+data+'.png')"
+
+ico
+
+webpack.dev.conf => HtmlWebpackPlugin => favicon: './static/favicon.ico'
+
+index => <link rel="shortcut icon" href="./static/favicon.ico" type="image/x-icon"/>
