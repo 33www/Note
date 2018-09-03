@@ -1,4 +1,4 @@
-npm install px2rem-loader
+npm install px2rem-loader //^0.1.9
 
 build => utils.js => cssLoaders => const px2remLoader = {loader: 'px2rem-loader'}
 
