@@ -6,3 +6,13 @@ build => utils.js => generateLoaders => [cssLoader, px2remLoader] : [cssLoader, 
 
 option： remUnit => 一个rem单位的大小（默认75px） remPrecision => 精确小数位（默认8）
 
+
+html =>
+
+      (function(){
+        var html = document.documentElement;
+        var width = html.getBoundingClientRect().width;
+
+        html.style.fontSize = width/10 + 'px';
+      })();
+
