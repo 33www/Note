@@ -174,3 +174,7 @@ ng g service name 创建服务
 服务类的方法可以在其他组件调用，服务就是把一些公用方法提取出来，在组件内import sevice，然后在constructor的参数里private heroService: HeroService
 
 这样就可以通过this.heroService调用服务类的方法，最后还要在ngOnInit里面调用
+
+### 订阅
+
+Observable和subscribe
