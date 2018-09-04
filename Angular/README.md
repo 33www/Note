@@ -143,4 +143,34 @@ websocket 传输协议
 
 ### 方法
 
-onSelect()
+onSelect(){}
+onSelect = fn() {}
+onSelect(e:type):type{}
+
+### 
+
+`*ngIf`判断，true显示，false隐藏
+
+###
+
+* [class.selected]="true"，true添加，false移除
+
+### 父子传信
+
+[hero]="selectedHero" 父
+
+import Input from angular/core => @input() hero
+
+### 装饰器
+
+@component 组件类装饰器
+@input 父传子属性装饰器
+@Injectable 依赖注入类装饰器
+
+### 服务
+
+ng g service name 创建服务
+
+服务类的方法可以在其他组件调用，服务就是把一些公用方法提取出来，在组件内import sevice，然后在constructor的参数里private heroService: HeroService
+
+这样就可以通过this.heroService调用服务类的方法，最后还要在ngOnInit里面调用
