@@ -35,6 +35,13 @@ component 被封装成一个模块 ComponentsModule
 
 this.navCtrl.push(pageName)
 
+
 ### theme 修改默认样式
 
-app.core 修改这个包括了ios和android
+全局样式 theme => variables @import 自定义样式
+
+
+### cards 卡片
+
+ion-card ion-card-header ion-card-content 
+
