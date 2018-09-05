@@ -100,3 +100,10 @@ block 块级按钮
 full/small/large 按钮大小
 
  icon-start/ icon-end / icon-only 按钮图标位置
+
+
+### ion-input 输入框
+
+ion-label fixed固定，stacked上边，float输入时变stacked
+
+placeholder
