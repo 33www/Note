@@ -124,3 +124,6 @@ checked="true" 默认选中 disabled="true" 禁用
 
 
 ### showWhen ios/android 在不同机器显示
+
+
+### config 全局设置
