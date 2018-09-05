@@ -121,3 +121,6 @@ placeholder
 ion-label 默认在checkbook右侧
 
 checked="true" 默认选中 disabled="true" 禁用
+
+
+### showWhen ios/android 在不同机器显示
