@@ -42,6 +42,13 @@ this.navCtrl.push(pageName) => [navPush]="page"
 
 this.navCtrl.pop() 返回 => navPop
 
+如果来回切换，会产生页面堆栈问题，可通过push().then(()=>{this.navCtrl.remove(this.viewCtrl.index)})删除历史记录
+
+
+### ViewController 页面
+
+index返回当前页面
+
 
 ### ion-navbar 导航栏
 
@@ -107,3 +114,10 @@ full/small/large 按钮大小
 ion-label fixed固定，stacked上边，float输入时变stacked
 
 placeholder
+
+
+### ion-checkbook 复选框
+
+ion-label 默认在checkbook右侧
+
+checked="true" 默认选中 disabled="true" 禁用
