@@ -40,6 +40,8 @@ component 被封装成一个模块 ComponentsModule
 
 this.navCtrl.push(pageName)
 
+this.navCtrl.pop() 返回
+
 
 ### ModalController 模态页面
 
