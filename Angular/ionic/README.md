@@ -83,3 +83,20 @@ ion-item-group 最后一个item不会没有边框
 item-start/item-end item定位
 
 ion-thumbnail 缩略图
+
+
+### ion-button 按钮类名 也可以使用ion-buttons组件将button包裹起来
+
+标签可以自定义，但最好使用button标签
+
+color属性改变颜色
+
+outline属性改成边框按钮
+
+clear使用无样式按钮
+
+block 块级按钮
+
+full/small/large 按钮大小
+
+ icon-start/ icon-end / icon-only 按钮图标位置
