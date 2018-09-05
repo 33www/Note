@@ -43,6 +43,9 @@ this.navCtrl.push(pageName) => [navPush]="page"
 this.navCtrl.pop() 返回 => navPop
 
 
+### ion-navbar 导航栏
+
+默认二级页面会添加返回按钮，去掉返回文字需在app.module里面配置 import => IonicModule => (myApp, {backButtonText: ''})
 
 
 ### ModalController 模态页面
