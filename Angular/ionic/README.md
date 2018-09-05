@@ -70,3 +70,16 @@ ion-card ion-card-header ion-card-content
 即angular的service
 
 
+### list 列表
+
+ion-list>ion-item
+
+no-lines 清除边框
+
+inset 清除外边框并添加边距 如果不是占满屏幕的需添加
+
+ion-item-group 最后一个item不会没有边框
+
+item-start/item-end item定位
+
+ion-thumbnail 缩略图
