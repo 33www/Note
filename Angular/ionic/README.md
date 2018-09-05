@@ -31,9 +31,19 @@ component 被封装成一个模块 ComponentsModule
 组件使用ng指令则需要在component.module里引入BrowserModule，并注册模块
 
 
+### ion-nav 导航页面
+
+相当于router-view，通常在根组件里使用
+
+
 ### NavController 导航路由
 
 this.navCtrl.push(pageName)
+
+
+### ModalController 模态页面
+
+通常用于登录和注册等临时页面 this.modalCtrl.create(ModalPage)
 
 
 ### theme 修改默认样式
@@ -44,4 +54,10 @@ this.navCtrl.push(pageName)
 ### cards 卡片
 
 ion-card ion-card-header ion-card-content 
+
+
+### providers 服务
+
+即angular的service
+
 
