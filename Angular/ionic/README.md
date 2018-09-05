@@ -38,9 +38,11 @@ component 被封装成一个模块 ComponentsModule
 
 ### NavController 导航路由
 
-this.navCtrl.push(pageName)
+this.navCtrl.push(pageName) => [navPush]="page"
 
-this.navCtrl.pop() 返回
+this.navCtrl.pop() 返回 => navPop
+
+
 
 
 ### ModalController 模态页面
