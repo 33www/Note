@@ -49,6 +49,8 @@ this.navCtrl.pop() 返回 => navPop
 
 通常用于登录和注册等临时页面 this.modalCtrl.create(ModalPage)
 
+modal和nav的区别在于，一个是新页面，一个是带tab的二级页面
+
 
 ### theme 修改默认样式
 
