@@ -147,3 +147,16 @@ ion-header 是绝对定位的
 ion-content 是占满整屏幕，有独自的滚动条，不会影响到header
 
 ion-tabs 是绝对定位
+
+
+### segment
+
+ion-segment 选项卡标签 [(ngModel)]="segment"
+
+ion-segment-button 绑定value="notice"
+
+然后在显示内容的标签绑定 [ngSwitch]="segment"
+
+对应的内容绑定 *ngSwitchCase = " 'notice' "
+
+默认显示的页面需要在ts里定义 segment = 'notice'
