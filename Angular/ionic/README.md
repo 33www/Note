@@ -127,3 +127,16 @@ checked="true" 默认选中 disabled="true" 禁用
 
 
 ### config 全局设置
+
+
+### theming 主题样式
+
+text-left text-center text-right text-wrap text-nowrap
+
+padding/margin 默认16px no-padding padding-vertical padding-horizontal
+
+[attr.text-center]="isMD ? '' : null" 动态绑定
+
+color 声明变量$colors
+
+
