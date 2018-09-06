@@ -140,3 +140,10 @@ padding/margin 默认16px no-padding padding-vertical padding-horizontal
 color 声明变量$colors
 
 
+### ion-header和ion-content
+
+ion-header 是绝对定位的
+
+ion-content 是占满整屏幕，有独自的滚动条，不会影响到header
+
+ion-tabs 是绝对定位
