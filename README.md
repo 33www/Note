@@ -17,3 +17,6 @@ $each(v1,fn(i1,v1){
     $dl += dd v2 /dd
     
     $dd = ""
+
+
+nodejs + git
