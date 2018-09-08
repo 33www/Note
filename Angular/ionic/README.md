@@ -160,3 +160,14 @@ ion-segment-button 绑定value="notice"
 对应的内容绑定 *ngSwitchCase = " 'notice' "
 
 默认显示的页面需要在ts里定义 segment = 'notice'
+
+
+## 组件
+
+### ion-nav 视图容器，放在根组件里面
+
+### ion-tabs 底部导航，通过absolut定位
+
+### ion-header 头部，通过absolut定位，二级页面会自动添加返回按钮
+
+### ion-content 内容页面，充满整个页面，自带滚动条
