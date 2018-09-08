@@ -174,3 +174,13 @@ ion-segment-button 绑定value="notice"
 ### ion-header 头部，通过absolut定位，二级页面会自动添加返回按钮
 
 ### ion-content 内容页面，充满整个页面，自带滚动条
+
+### ion-grid
+
+grid布局 相当于一个div，通过flex,column 将ion-row设置为grid的列；默认5px内边距
+
+ion-row，ion-col 默认col是相等；还可以设置col-auto和offset-*
+
+ion-row 可以设置flex属性justify-content-between/justify-content-around/justify-content-end/justify-content-center/justify-content-start/align-items-baseline/align-items-stretch/align-items-end/align-items-center/align-items-start
+
+ion-col 可以设置flex属性align-self-start/align-self-center/align-self-end/align-self-stretch/align-self-baseline
