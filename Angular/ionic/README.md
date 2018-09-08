@@ -91,6 +91,8 @@ item-start/item-end item定位
 
 ion-thumbnail 缩略图
 
+在button内添加item属性，有默认有个三角图标
+
 
 ### ion-button 按钮类名 也可以使用ion-buttons组件将button包裹起来
 
@@ -106,7 +108,8 @@ block 块级按钮
 
 full/small/large 按钮大小
 
- icon-start/ icon-end / icon-only 按钮图标位置
+icon-start/ icon-end / icon-only 按钮图标位置
+ 
 
 
 ### ion-input 输入框
