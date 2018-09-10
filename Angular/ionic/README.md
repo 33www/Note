@@ -184,3 +184,8 @@ ion-row，ion-col 默认col是相等；还可以设置col-auto和offset-*
 ion-row 可以设置flex属性justify-content-between/justify-content-around/justify-content-end/justify-content-center/justify-content-start/align-items-baseline/align-items-stretch/align-items-end/align-items-center/align-items-start
 
 ion-col 可以设置flex属性align-self-start/align-self-center/align-self-end/align-self-stretch/align-self-baseline
+
+
+### 统一ios/android模式
+
+config => mode = 'ios/android'
