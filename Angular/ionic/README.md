@@ -192,7 +192,29 @@ config => mode = 'ios/android'
 
 
 
-### alertController 弹出层
+### 实例成员
+
+create
+
+present
+
+
+
+
+
+
+
+## 交互
+
+
+### toast 消息提示框
+
+通常用于消息提示
+
+
+### alert 信息确定框
+
+通常用于信息确认
 
 alertCtrl.creater() 创建alert实例 
 
@@ -209,13 +231,6 @@ buttons => [] , [{text: str, handler: fn, role: str}]
 input => 
 
 
-### 实例成员
+### popover 内容展示框
 
-create
-
-present
-
-
-### popover 弹出层
-
-如果传入$event，并在present挂载{ev: event}，这样就会有三角提示
+通常用于某个菜单下的列表，如果传入$event，并在present挂载{ev: event}，这样就会有三角提示
