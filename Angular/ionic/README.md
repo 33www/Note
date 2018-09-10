@@ -36,18 +36,10 @@ component 被封装成一个模块 ComponentsModule
 相当于router-view，通常在根组件里使用
 
 
-### NavController 导航路由
-
-this.navCtrl.push(pageName) => [navPush]="page"
-
-this.navCtrl.pop() 返回 => navPop
-
-如果来回切换，会产生页面堆栈问题，可通过push().then(()=>{this.navCtrl.remove(this.viewCtrl.index)})删除历史记录
 
 
-### ViewController 页面
 
-index返回当前页面
+
 
 
 ### ion-navbar 导航栏
@@ -55,11 +47,7 @@ index返回当前页面
 默认二级页面会添加返回按钮，去掉返回文字需在app.module里面配置 import => IonicModule => (myApp, {backButtonText: ''})
 
 
-### ModalController 模态页面
 
-通常用于登录和注册等临时页面 this.modalCtrl.create(ModalPage)
-
-modal和nav的区别在于，一个是新页面，一个是带tab的二级页面
 
 
 ### theme 修改默认样式
@@ -201,6 +189,28 @@ present
 
 
 
+## 导航
+
+
+### NavController 导航路由
+
+this.navCtrl.push(pageName) => [navPush]="page"
+
+this.navCtrl.pop() 返回 => navPop
+
+如果来回切换，会产生页面堆栈问题，可通过push().then(()=>{this.navCtrl.remove(this.viewCtrl.index)})删除历史记录
+
+
+### ModalController 模态页面
+
+通常用于登录和注册等临时页面 this.modalCtrl.create(ModalPage)
+
+modal和nav的区别在于，一个是新页面，一个是带tab的二级页面
+
+
+### ViewController 页面
+
+index返回当前页面
 
 
 
