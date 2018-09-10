@@ -189,3 +189,33 @@ ion-col 可以设置flex属性align-self-start/align-self-center/align-self-end/
 ### 统一ios/android模式
 
 config => mode = 'ios/android'
+
+
+
+### alertController 弹出层
+
+alertCtrl.creater() 创建alert实例 
+
+option: 
+
+title => str
+
+subTitle => str
+
+message => str
+
+buttons => [] , [{text: str, handler: fn, role: str}]
+
+input => 
+
+
+### 实例成员
+
+create
+
+present
+
+
+### popover 弹出层
+
+如果传入$event，并在present挂载{ev: event}，这样就会有三角提示
