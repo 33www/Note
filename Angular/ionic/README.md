@@ -244,3 +244,16 @@ input =>
 ### popover 内容展示框
 
 通常用于某个菜单下的列表，如果传入$event，并在present挂载{ev: event}，这样就会有三角提示
+
+
+### loading 加载框
+
+
+
+
+
+
+
+## providers 服务
+
+ionic g providers api 新建api服务
