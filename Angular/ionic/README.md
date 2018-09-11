@@ -268,3 +268,8 @@ this.http.get(url).subscribe((data) => {成功回调}，(err) => {失败回调})
 数据处理 let data = JSON.parse(data['_body'])
 
 this.http.post(url,JSON.stringify({suername: 'admin'}),{headers:this.headers}).subscribe((res) => {成功回调})
+
+
+## 状态码
+
+401 没有权限，需要带token，找后端
