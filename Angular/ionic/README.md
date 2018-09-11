@@ -259,3 +259,12 @@ input =>
 注入服务，就是实例化方法类
 
 ionic g providers api 新建api服务
+
+
+## http 
+
+this.http.get(url).subscribe((data) => {成功回调}，(err) => {失败回调})
+
+数据处理 let data = JSON.parse(data['_body'])
+
+this.http.post(url,JSON.stringify({suername: 'admin'}),{headers:this.headers}).subscribe((res) => {成功回调})
