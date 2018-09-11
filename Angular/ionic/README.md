@@ -256,4 +256,6 @@ input =>
 
 ## providers 服务
 
+注入服务，就是实例化方法类
+
 ionic g providers api 新建api服务
