@@ -100,18 +100,7 @@ icon-start/ icon-end / icon-only 按钮图标位置
  
 
 
-### ion-input 输入框
 
-ion-label fixed固定，stacked上边，float输入时变stacked
-
-placeholder
-
-
-### ion-checkbook 复选框
-
-ion-label 默认在checkbook右侧
-
-checked="true" 默认选中 disabled="true" 禁用
 
 
 ### showWhen ios/android 在不同机器显示
@@ -241,6 +230,19 @@ buttons => [] , [{text: str, handler: fn, role: str}]
 input => 
 
 
+### action-sheet 行动表
+
+create options =>
+
+title 标题
+
+buttons 按钮 => text, icon, handler, role
+
+ 
+
+
+
+
 ### popover 内容展示框
 
 通常用于某个菜单下的列表，如果传入$event，并在present挂载{ev: event}，这样就会有三角提示
@@ -250,6 +252,38 @@ input =>
 
 
 
+## 表单
+
+
+### ion-input 输入框
+
+ion-label fixed固定，stacked上边，float输入时变stacked
+
+placeholder
+
+
+### ion-checkbook 复选框
+
+ion-label 默认在checkbook右侧
+
+checked="true" 默认选中 disabled="true" 禁用
+
+
+### ion-select 选项框
+
+ion-select => ion-option
+
+prop => 
+
+okText 确定按钮文本
+
+cancelText 返回按钮文本
+
+interface 弹出框类型 => alert(默认)，action-sheet，popover
+
+selectOptions 弹框设置
+
+multiple 是否多选
 
 
 
