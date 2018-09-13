@@ -189,6 +189,8 @@ this.navCtrl.pop() 返回 => navPop
 
 如果来回切换，会产生页面堆栈问题，可通过push().then(()=>{this.navCtrl.remove(this.viewCtrl.index)})删除历史记录
 
+popToRoot返回根页面会自动删除页面栈
+
 
 ### ModalController 模态页面
 
@@ -196,10 +198,14 @@ this.navCtrl.pop() 返回 => navPop
 
 modal和nav的区别在于，一个是新页面，一个是带tab的二级页面
 
+modal不能返回根页面，只能dismiss掉。（navCtrl.popToRoot()直接返回根页面）
+
 
 ### ViewController 页面
 
 index返回当前页面
+
+dismiss() 删除当前页面
 
 
 
