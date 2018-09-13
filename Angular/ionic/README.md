@@ -200,6 +200,8 @@ modal和nav的区别在于，一个是新页面，一个是带tab的二级页面
 
 modal不能返回根页面，只能dismiss掉。（navCtrl.popToRoot()直接返回根页面）
 
+onDidDismiss(fn) 用于模态框关闭时回调函数
+
 
 ### ViewController 页面
 
