@@ -294,6 +294,14 @@ selectOptions 弹框设置
 multiple 是否多选
 
 
+### InfiniteScroll 无限滚动
+
+ion-infinite-scroll 组件放置在list下面，(ionInfinite)监听事件，doInfinite($event)绑定方法
+
+doInfinite(infiniteScroll){ // 当下拉时触发
+ infiniteScroll.complete()  // 完成下拉刷新
+} 
+
 
 
 ## providers 服务
