@@ -178,3 +178,16 @@ ng g service name 创建服务
 ### 订阅
 
 Observable和subscribe
+
+
+### 绑定类
+
+// ngClass和ngStyle绑定的是对象，ngClass和class只需判断true or false
+
+[ngClass] = "{'active': boolen}"
+
+[class.active] = "boolen"
+
+[ngStyle] = "{'color': boolen ? 'red' : 'blue'}"
+
+[style.color] = "boolen ? 'red' : 'blue'"
