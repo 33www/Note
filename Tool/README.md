@@ -1,6 +1,6 @@
 ## 开发工具
 
-### 编辑器 nodepad++ sublime
+### 编辑器 nodepad++ sublime vscode
 
 ### 版本控制系统 svn git github
 
