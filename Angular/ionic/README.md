@@ -148,6 +148,11 @@ ion-segment-button 绑定value="notice"
 
 ### ion-tabs 底部导航，通过absolut定位
 
+[selectedIndex] = tabIndex 绑定index，然后通过push(tabpages {tabIndex: value})使用
+
+[rootParams] = 绑定tab页面要接收的参数，传递的是一个对象，{key:value,key:value}
+
+
 ### ion-header 头部，通过absolut定位，二级页面会自动添加返回按钮
 
 ### ion-content 内容页面，充满整个页面，自带滚动条
@@ -191,6 +196,10 @@ this.navCtrl.pop() 返回 => navPop
 
 popToRoot返回根页面会自动删除页面栈
 
+parent.select(index) 跳转到tab页面，但是不能传参
+
+如果导航到tab页面，并需要传参，navCtrl.push(TabsPage, {tabIndex: num, key: value})
+
 
 ### ModalController 模态页面
 
@@ -208,6 +217,7 @@ onDidDismiss(fn) 用于模态框关闭时回调函数
 index返回当前页面
 
 dismiss() 删除当前页面
+
 
 
 
