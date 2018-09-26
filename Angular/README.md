@@ -191,3 +191,12 @@ Observable和subscribe
 [ngStyle] = "{'color': boolen ? 'red' : 'blue'}"
 
 [style.color] = "boolen ? 'red' : 'blue'"
+
+
+### ngfor添加事件
+
+// 判断是否被点击 
+isActive = fn(item)
+
+// 点击切换效果
+if(isActive === item){ isActive = ''} else{ isActive = item}
