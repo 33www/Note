@@ -321,6 +321,28 @@ doInfinite(infiniteScroll){ // 当下拉时触发
 ionic g providers api 新建api服务
 
 
+
+## Platform 平台功能
+
+### registerBackButtonAction 返回键方法
+
+registerBackButtonAction(() => {this.platform.exitApp()}) 返回直接退出APP
+
+
+
+## native 原生功能
+
+### clipboard 复制粘贴
+
+this.clipboard.copy(this.myRecommendUrl)
+
+### inAppBrowser 打开浏览器
+
+this.inAppBrowser.create（url, '_blank', {option}）
+
+
+
+
 ## http 
 
 this.http.get(url).subscribe((data) => {成功回调}，(err) => {失败回调})
