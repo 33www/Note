@@ -201,7 +201,11 @@ parent.select(index) 跳转到tab页面，但是不能传参
 如果导航到tab页面，并需要传参，navCtrl.push(TabsPage, {tabIndex: num, key: value})
 
 
-### ModalController 模态页面
+!! nav返回不能传参
+
+!! select跳转不能传参
+
+### ModalController 模态页面（默认没有返回，要求做出某些行为后自动关闭，配合dismiss）
 
 通常用于登录和注册等临时页面 this.modalCtrl.create(ModalPage)
 
@@ -217,6 +221,8 @@ onDidDismiss(fn) 用于模态框关闭时回调函数
 index返回当前页面
 
 dismiss() 删除当前页面
+
+onDisDismiss(fn) 页面关闭前触发函数
 
 
 
@@ -313,6 +319,11 @@ doInfinite(infiniteScroll){ // 当下拉时触发
 } 
 
 
+### events 发布订阅事件
+
+events.publish('name', data, Date.now()) 发布
+
+events.subscribe('name', (data, time)=>{}) 订阅 // tiem是发布的时间
 
 ## providers 服务
 
