@@ -2,8 +2,7 @@
 
 
 `
-@NgModule({  
-
+@NgModule({
 if  
 })
 `
