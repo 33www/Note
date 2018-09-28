@@ -1,7 +1,5 @@
 组件
 
 
-`@NgModule({
-
-})`
+`@NgModule({})`
 
