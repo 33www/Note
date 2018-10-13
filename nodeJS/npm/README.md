@@ -17,3 +17,5 @@ npm init 生成package.json配置文件
 npm run dev 运行开发环境
 
 npm run build 打包项目
+
+npm ls(list) --global（全局） --depth（只显示二级结构） 查看安装目录
