@@ -340,6 +340,15 @@ ionic g providers api 新建api服务
 registerBackButtonAction(() => {this.platform.exitApp()}) 返回直接退出APP
 
 
+### 启动页和图标 ionic cordova resources
+
+cli => ionic cordova resources
+
+第一步，将resources下的splash替换成启动页图片，删除ios和android下的图片，splash最小2732*2732，icon最小1024*1024
+第二步，执行ionic cordova resources android | ios -s(只生成启动页)， -i(只生成图标)
+
+
+
 
 ## native 原生功能
 
