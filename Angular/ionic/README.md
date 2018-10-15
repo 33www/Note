@@ -386,3 +386,7 @@ this.http.post(url,JSON.stringify({suername: 'admin'}),{headers:this.headers}).s
 
 
 ### ws版本3.3.3不支持浏览器自动刷新，改为3.3.2版本
+
+### 如果node-sass版本报错，先卸载，然后npm cache clean --forc，再npm i
+
+### 如果npm未能加载Visual C++组件，运行npm install --global --production windows-build-tools 
