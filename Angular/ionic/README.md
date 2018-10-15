@@ -42,6 +42,10 @@ component 被封装成一个模块 ComponentsModule
 
 
 
+
+
+
+
 ### ion-navbar 导航栏
 
 默认二级页面会添加返回按钮，去掉返回文字需在app.module里面配置 import => IonicModule => (myApp, {backButtonText: ''})
@@ -118,6 +122,9 @@ padding/margin 默认16px no-padding padding-vertical padding-horizontal
 [attr.text-center]="isMD ? '' : null" 动态绑定
 
 color 声明变量$colors
+
+默认font-size = 62.5% （浏览器默认16px），1rem = 10px
+
 
 
 ### ion-header和ion-content
@@ -375,3 +382,7 @@ this.http.post(url,JSON.stringify({suername: 'admin'}),{headers:this.headers}).s
 ## 状态码
 
 401 没有权限，需要带token，找后端
+
+
+
+### ws版本3.3.3不支持浏览器自动刷新，改为3.3.2版本
