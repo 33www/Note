@@ -36,3 +36,10 @@ provider
 
 
 storage
+
+
+
+
+remark
+
+清除图片缓存  在url后+ ? + 随机数，可以是时间戳
