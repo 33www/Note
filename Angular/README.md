@@ -200,3 +200,6 @@ isActive = fn(item)
 
 // 点击切换效果
 if(isActive === item){ isActive = ''} else{ isActive = item}
+
+### DomSanitizer 净化器
+
