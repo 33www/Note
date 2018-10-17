@@ -1,0 +1,1 @@
+ionic storage 会自动选择最适合的存储引擎，在app中使用sqlite
