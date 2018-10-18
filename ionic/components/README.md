@@ -18,4 +18,6 @@
 
 }
 
-## 
+## ion-footer
+
+## ion-toolbar
