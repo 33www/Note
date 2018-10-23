@@ -203,3 +203,7 @@ if(isActive === item){ isActive = ''} else{ isActive = item}
 
 ### DomSanitizer 净化器
 
+### 绑定空对象
+
+item.data => item?.data 通过添加?，如果对象为空则不绑定
+
