@@ -11,3 +11,11 @@ row => 再切列  //  item =>
 col => 再切行
 
 ````
+
+flex实现justify-self
+
+```
+居中的 flex = 1, width = 100%
+
+中间的居中，需要左右的width相等
+```
