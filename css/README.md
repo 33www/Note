@@ -19,3 +19,13 @@ flex实现justify-self
 
 中间的居中，需要左右的width相等
 ```
+
+确定了，用ion-row + ion-label
+
+```
+
+<ion-row>
+  <ion-label></ion-label>
+<ion-row>
+
+```
