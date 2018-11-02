@@ -207,3 +207,5 @@ if(isActive === item){ isActive = ''} else{ isActive = item}
 
 item.data => item?.data 通过添加?，如果对象为空则不绑定
 
+数据渲染只需要申明一个data变量来接收res.data，绑定时加?来防止空对象报错
+
