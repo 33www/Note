@@ -51,3 +51,8 @@ remark
 
 ## ionViewDidLoad() 页面被加载时触发，当页面栈被删除后又重新加载，就会重新触发
 
+
+
+## ionicModule 核心模块
+
+### forRoot(appRoot, config, deepLinkConfig) config可以配置参数
