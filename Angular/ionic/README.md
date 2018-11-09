@@ -203,6 +203,8 @@ this.navCtrl.pop() 返回 => navPop
 
 popToRoot返回根页面会自动删除页面栈
 
+setRoot 设置根页面，TabsPage可以返回到首页，并可以传参。或许可以用来设置堆栈中的页面
+
 parent.select(index) 跳转到tab页面，但是不能传参
 
 如果导航到tab页面，并需要传参，navCtrl.push(TabsPage, {tabIndex: num, key: value})
