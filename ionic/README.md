@@ -53,6 +53,13 @@ remark
 
 
 
-## ionicModule 核心模块
+## IonicModule 核心模块
 
 ### forRoot(appRoot, config, deepLinkConfig) config可以配置参数
+
+
+## IonicPageModule page模块
+
+### forChild(PageName)
+
+### PageName: string 使用时不需要在app.module挂载
