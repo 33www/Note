@@ -1,6 +1,6 @@
 长连接，推送 -> 接收
 
-`
+```
 var ws = new WebSocket(url, [protocol])   // 创建链接
 
 
@@ -30,4 +30,4 @@ ws.readyState // 读取链接状态
 
 
 ws.bufferedAmount // 读取即将发送的消息
-`
+```
