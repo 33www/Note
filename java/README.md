@@ -1,5 +1,7 @@
 jdk就是java sdk，其中se是标准版本，ee是企业版本，me是微版本
 
+cordova要求安装jdk8
+
 配置环境变量
 
 JAVA_HOME = C:\Program Files\Java\jdk-11.0.1
