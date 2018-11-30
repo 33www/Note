@@ -214,6 +214,8 @@ parent.select(index) 跳转到tab页面，但是不能传参
 
 nav返回传参解决方案： this.navCtrl.push().then(() => {this.navCtrl.getActive().onDidDismiss(data => {console.log(data)})})
 
+this.viewCtrl.dismiss()
+
 !! select跳转不能传参
 
 ### ModalController 模态页面（默认没有返回，要求做出某些行为后自动关闭，配合dismiss）
