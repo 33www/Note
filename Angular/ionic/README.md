@@ -322,6 +322,7 @@ selectOptions 弹框设置
 
 multiple 是否多选
 
+close 关闭弹出框（#id.close）
 
 ### InfiniteScroll 无限滚动
 
@@ -331,6 +332,9 @@ doInfinite(infiniteScroll){ // 当下拉时触发
  infiniteScroll.complete()  // 完成下拉刷新
 } 
 
+### item-sliding 滑动隐藏按钮
+
+close 隐藏按钮(#id.close)
 
 ### events 发布订阅事件
 
@@ -401,3 +405,6 @@ at TCP.onread (net.js:618:25)
 ### 如果node-sass版本报错，先卸载，然后npm cache clean --forc，再npm i
 
 ### 如果npm未能加载Visual C++组件，运行npm install --global --production windows-build-tools 
+
+
+
