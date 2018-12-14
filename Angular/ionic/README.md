@@ -201,6 +201,8 @@ this.navCtrl.pop() 返回 => navPop
 
 如果来回切换，会产生页面堆栈问题，可通过push().then(()=>{this.navCtrl.remove(this.viewCtrl.index)})删除历史记录
 
+this.navCtrl.remove(this.viewCtrl.index-1, 2) 删除多个页面
+
 popToRoot返回根页面会自动删除页面栈
 
 setRoot 设置根页面，TabsPage可以返回到首页，并可以传参。或许可以用来设置堆栈中的页面
