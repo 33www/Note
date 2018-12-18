@@ -209,3 +209,14 @@ item.data => item?.data 通过添加?，如果对象为空则不绑定
 
 数据渲染只需要申明一个data变量来接收res.data，绑定时加?来防止空对象报错
 
+
+### ngfor递归
+
+```
+<ng-template #id let-list>
+  <div *ngFor="let item of list">
+    <ng-container *ngTemplateOutlet="id; context: {$implicit: item.value}"></ng-container>
+  </div>
+</ng-template>
+<ng-container *ngTemplateOutlet="id; context: {$implicit: list}"></ng-container>
+```
