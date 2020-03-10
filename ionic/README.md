@@ -63,3 +63,20 @@ remark
 ### forChild(PageName)
 
 ### PageName: string 使用时不需要在app.module挂载
+
+
+statusbar
+
+如果状态栏悬浮，header会重叠，所以暂不支持，设置背景为黑色。防止没有header的页面上顶，添加header.none设置0.55px像素的toolbar，背景为黑色
+
+admob,alipay,Full Screen,Fingerprint Auth,push,Launcher,Update,Version,Browser,Camera
+
+[ERROR] An error occurred while running subprocess cordova.
+
+no target specified
+
+没有找到设备，请检查adb devices
+
+ionic codova run android <--opt>
+
+-l 热连接，和server一样实时刷新
