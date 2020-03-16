@@ -127,6 +127,27 @@ websocket 传输协议
 
 * {{}} 数据表达式
 
+### 表单
+* 响应式
+
+`FormGroup 是一组FormControl`
+
+`FormControl 单个表单控件的值和状态`
+
+`(ngSubmit) 表单提交事件`
+
+`Validators 验证器`
+
+`FormGroup = FormBuilder.group({name: []})`
+
+* 模板驱动
+
+`[value]`
+
+`[(ngModle)]`
+
+`#name="ngModel"`
+
 ### 管道
 
 > 用于格式化数据
